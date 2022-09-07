@@ -16,9 +16,9 @@ def ceaser_cipher(string, shift)
 
     p ascii_ordinal
     ascii_char = ascii_ordinal.map {|number| number.chr }
+    
     return ascii_char.join("")
 end    
 
 ceaser_cipher("Abc xyz", -30)
 ceaser_cipher("What a string!", 5)
-
